@@ -38,7 +38,7 @@ export class ImageGallery extends Component {
         <ImageGalleryItem images={images} onSelectImage={getImageIdByClick} />
         {showModal && (
           <Modal onClose={toggleModal}>
-            <img src={getLargeImgUrlForModal()} alt="" />
+            <img src={getLargeImgUrlForModal()} width="1000" alt="" />
           </Modal>
         )}
         {children}
