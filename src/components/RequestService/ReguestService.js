@@ -28,7 +28,7 @@ export class ImagesLoadService {
     }
 
     this.incrementPage();
-    return response.data.hits;
+    return response.data;
   }
 
   incrementPage() {
